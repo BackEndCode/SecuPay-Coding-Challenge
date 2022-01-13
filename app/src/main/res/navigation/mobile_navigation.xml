@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_status_code">
+    <fragment
+        android:id="@+id/nav_status_code"
+        android:name="com.noministic.userslogintest.ui.fragments.FragmentStatusCodes"
+        android:label="@string/send_status_request"
+        tools:layout="@layout/fragment_delay_counter_layout" />
+
+    <fragment
+        android:id="@+id/nav_delay_counter"
+        android:name="com.noministic.userslogintest.ui.fragments.FragmentDelayCounter"
+        android:label="@string/send_counter_delay_request"
+        tools:layout="@layout/fragment_status_code_layout" />
+</navigation>

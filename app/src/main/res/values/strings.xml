@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SecuPay Coding Test</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_email_hint">Username</string>
+    <string name="login">Login</string>
+    <string name="send_status_request">Send Status Request</string>
+    <string name="send_counter_delay_request">Send Counter Delay Request</string>
+    <string name="action_logout">Logout</string>
+    <string name="nav_header_title">nav_title</string>
+    <string name="nav_header_subtitle">nav_subtitle</string>
+    <string name="nav_header_desc">Nav Desciption for the drawer</string>
+    <string name="get_response">Get Random Response</string>
+    <string name="counter_pref">counter_pref</string>
+    <string name="counter_key">counter_key</string>
+    <string name="current_counter">Current Counter :</string>
+
+</resources>
